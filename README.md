@@ -1,1 +1,1 @@
-# anthos-hybrid-mesh
+# anthos-hybrid-service-mesh
