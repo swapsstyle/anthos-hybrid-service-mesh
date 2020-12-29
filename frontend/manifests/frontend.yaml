@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/$GCP_PROJECT_ID/frontend:v1
+        image: swapsstyle/anthos-frontend:v1
         ports:
         - containerPort: 5000
         env:

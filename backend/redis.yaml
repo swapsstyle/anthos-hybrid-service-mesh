@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: k8s.gcr.io/redis:e2e
+        image: swapsstyle/anthos-backend:v1
         ports:
         - containerPort: 6379
 ---
