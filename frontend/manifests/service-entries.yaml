@@ -18,6 +18,6 @@ spec:
   addresses:
   - 240.0.0.2
   endpoints:
-  - address: $INGRESS_GWIP_FRONTEND
+  - address: INGRESS_GWIP_BACKEND
     ports:
       redis: 15443
