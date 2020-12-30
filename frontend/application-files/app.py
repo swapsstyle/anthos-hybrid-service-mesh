@@ -27,7 +27,6 @@ def get_hit_count():
 @app.route('/')
 def hit():
     count = get_hit_count()
-    # return 'Hello, you have %i visitors on this page' % int(count)
     return render_template('index.html', value=int(count))
 
 if __name__ == "__main__":
