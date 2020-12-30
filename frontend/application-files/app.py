@@ -5,6 +5,7 @@
 import time
 import redis
 from flask import Flask
+from flask import render_template
 import os
 
 app = Flask(__name__)
@@ -26,7 +27,8 @@ def get_hit_count():
 @app.route('/')
 def hit():
     count = get_hit_count()
-    return 'Hello, you have %i visitors on this page' % int(count)
+    # return 'Hello, you have %i visitors on this page' % int(count)
+    return render_template('index.html', value=int(count))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
