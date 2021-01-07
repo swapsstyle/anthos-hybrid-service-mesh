@@ -1,6 +1,3 @@
-# Author: Anil Saravade
-# Copyright: Copyright (©) 2020. SwapStyle. All rights reserved.
-
 FROM python:3.7-alpine
 
 WORKDIR /code
