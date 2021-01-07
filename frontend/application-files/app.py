@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Anil Saravade
-# Copyright: Copyright (©) 2020. SwapStyle. All rights reserved.
-
 import time
 import redis
 from flask import Flask
