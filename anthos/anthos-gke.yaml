@@ -1,6 +1,3 @@
-# Author: Anil Saravade
-# Copyright: Copyright (©) 2020. SwapStyle. All rights reserved.
-
 apiVersion: multicloud.cluster.gke.io/v1
 kind: AWSManagementService
 metadata:
